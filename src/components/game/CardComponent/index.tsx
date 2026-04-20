@@ -17,9 +17,9 @@ interface CardComponentProps {
 }
 
 const sizes = {
-  sm: { width: 48, height: 68, rankSize: 'text-xs', suitSize: 'text-sm', centerSize: 'text-xl' },
+  sm: { width: 52, height: 74, rankSize: 'text-xs', suitSize: 'text-sm', centerSize: 'text-lg' },
   md: { width: 64, height: 90, rankSize: 'text-sm', suitSize: 'text-base', centerSize: 'text-2xl' },
-  lg: { width: 80, height: 112, rankSize: 'text-base', suitSize: 'text-lg', centerSize: 'text-3xl' },
+  lg: { width: 76, height: 106, rankSize: 'text-sm', suitSize: 'text-base', centerSize: 'text-2xl' },
 }
 
 export const CardComponent: React.FC<CardComponentProps> = ({
